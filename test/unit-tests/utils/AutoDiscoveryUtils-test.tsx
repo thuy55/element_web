@@ -163,7 +163,7 @@ describe("AutoDiscoveryUtils", () => {
             await expect(AutoDiscoveryUtils.buildValidatedConfigFromDiscovery("", discoveryResult)).resolves.toEqual({
                 ...expectedValidatedConfig,
                 hsNameIsDifferent: false,
-                hsName: "matrix.org",
+                hsName: "matrix.5hpc.com",
                 warning: null,
             });
         });

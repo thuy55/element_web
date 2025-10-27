@@ -319,7 +319,7 @@ export class DecryptionFailureTracker {
         this.baseProperties = baseProperties;
 
         this.userDomain = client.getDomain() ?? undefined;
-        if (this.userDomain === "matrix.org") {
+        if (this.userDomain === "matrix.5hpc.com") {
             baseProperties.isMatrixDotOrg = true;
         } else if (this.userDomain !== undefined) {
             baseProperties.isMatrixDotOrg = false;

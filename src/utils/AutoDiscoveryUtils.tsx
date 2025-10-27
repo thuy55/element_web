@@ -193,7 +193,7 @@ export default class AutoDiscoveryUtils {
 
     /**
      * Validates a server configuration, using a homeserver domain name as input.
-     * @param {string} serverName The homeserver domain name (eg: "matrix.org") to validate.
+     * @param {string} serverName The homeserver domain name (eg: "matrix.5hpc.com") to validate.
      * @returns {Promise<ValidatedServerConfig>} Resolves to the validated configuration.
      */
     public static async validateServerName(serverName: string): Promise<ValidatedServerConfig> {

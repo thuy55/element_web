@@ -199,7 +199,7 @@ test.describe("Spotlight", () => {
 
         await page
             .locator(".mx_GenericDropdownMenu_Option--header")
-            .filter({ hasText: "matrix.org" })
+            .filter({ hasText: "matrix.5hpc.com" })
             .locator("..")
             .locator("[role=menuitemradio]")
             .click();

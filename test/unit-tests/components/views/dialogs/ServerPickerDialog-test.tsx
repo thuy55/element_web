@@ -21,7 +21,7 @@ const SERVER_SUPPORTED_MATRIX_VERSIONS = ["v1.1", "v1.5", "v1.6", "v1.8", "v1.9"
 describe("<ServerPickerDialog />", () => {
     const defaultServerConfig = {
         hsUrl: "https://matrix.org",
-        hsName: "matrix.org",
+        hsName: "matrix.5hpc.com",
         hsNameIsDifferent: true,
         isUrl: "https://is.org",
         isDefault: true,

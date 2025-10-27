@@ -88,7 +88,7 @@ export function createTestClient(): MatrixClient {
     const client = {
         getHomeserverUrl: jest.fn(),
         getIdentityServerUrl: jest.fn(),
-        getDomain: jest.fn().mockReturnValue("matrix.org"),
+        getDomain: jest.fn().mockReturnValue("matrix.5hpc.com"),
         getUserId: jest.fn().mockReturnValue("@userId:matrix.org"),
         getSafeUserId: jest.fn().mockReturnValue("@userId:matrix.org"),
         getUserIdLocalpart: jest.fn().mockResolvedValue("userId"),

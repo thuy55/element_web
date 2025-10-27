@@ -95,7 +95,7 @@ const DEFAULT_CONFIG = {
         disable_http_keepalives: false,
         key_perspectives: [
             {
-                server_name: "matrix.org",
+                server_name: "matrix.5hpc.com",
                 keys: [
                     {
                         key_id: "ed25519:auto",

@@ -167,7 +167,7 @@ export default class ServerPickerDialog extends React.PureComponent<IProps, ISta
 
     public render(): React.ReactNode {
         let text: string | undefined;
-        if (this.defaultServer.hsName === "matrix.org") {
+        if (this.defaultServer.hsName === "matrix.5hpc.com") {
             text = _t("auth|server_picker_matrix.org");
         }
 

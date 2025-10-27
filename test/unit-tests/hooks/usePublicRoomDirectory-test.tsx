@@ -24,7 +24,7 @@ describe("usePublicRoomDirectory", () => {
         stubClient();
         cli = MatrixClientPeg.safeGet();
 
-        cli.getDomain = () => "matrix.org";
+        cli.getDomain = () => "matrix.5hpc.com";
         cli.getThirdpartyProtocols = () => Promise.resolve({});
         cli.publicRooms = ({ filter }: IRoomDirectoryOptions) => {
             const chunk = [
