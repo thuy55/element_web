@@ -16,11 +16,7 @@ exports[`SetIntegrationManager should render manage integrations sections 1`] = 
       >
         Manage integrations
       </h3>
-      <h4
-        class="mx_Heading_h4"
-      >
-        (scalar.vector.im)
-      </h4>
+     
     </div>
   </div>
   <div
@@ -28,9 +24,7 @@ exports[`SetIntegrationManager should render manage integrations sections 1`] = 
   >
     <span>
       Use an integration manager 
-      <strong>
-        (scalar.vector.im)
-      </strong>
+    
        to manage bots, widgets, and sticker packs.
     </span>
   </div>

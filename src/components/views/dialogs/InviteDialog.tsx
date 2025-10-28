@@ -1261,9 +1261,10 @@ export default class InviteDialog extends React.PureComponent<Props, IInviteDial
                     {
                         userId: () => {
                             return (
-                                <a href={makeUserPermalink(userId)} rel="noreferrer noopener" target="_blank">
-                                    {userId}
-                                </a>
+                                // <a href={makeUserPermalink(userId)} rel="noreferrer noopener" target="_blank">
+                                //     {userId}
+                                // </a>
+                                <span>{userId}</span>
                             );
                         },
                     },

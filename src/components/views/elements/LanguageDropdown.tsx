@@ -51,14 +51,22 @@ export default class LanguageDropdown extends React.Component<IProps, IState> {
         languageHandler
             .getAllLanguagesWithLabels()
             .then((langs) => {
-                langs.sort(function (a, b) {
+                // Sắp xếp theo tên ngôn ngữ
+                langs.sort((a, b) => {
                     if (a.labelInTargetLanguage < b.labelInTargetLanguage) return -1;
                     if (a.labelInTargetLanguage > b.labelInTargetLanguage) return 1;
                     return 0;
                 });
+
+                // ✅ Chỉ hiển thị English và Vietnamese
+                langs = langs.filter(
+                    (lang) => lang.value === "en" || lang.value === "vi"
+                );
+
                 this.setState({ langs });
             })
             .catch(() => {
+                // Fallback nếu có lỗi khi load danh sách
                 this.setState({
                     langs: [
                         {
@@ -66,22 +74,24 @@ export default class LanguageDropdown extends React.Component<IProps, IState> {
                             label: "English",
                             labelInTargetLanguage: "English",
                         },
+                        {
+                            value: "vi",
+                            label: "Vietnamese",
+                            labelInTargetLanguage: "Tiếng Việt",
+                        },
                     ],
                 });
             });
 
         if (!this.props.value) {
-            // If no value is given, we start with the first country selected,
-            // but our parent component doesn't know this, therefore we do this.
+            // Nếu không có giá trị ban đầu, chọn ngôn ngữ mặc định của user
             const language = languageHandler.getUserLanguage();
             this.props.onOptionChange(language);
         }
     }
 
     private onSearchChange = (search: string): void => {
-        this.setState({
-            searchQuery: search,
-        });
+        this.setState({ searchQuery: search });
     };
 
     public render(): React.ReactNode {
@@ -89,18 +99,18 @@ export default class LanguageDropdown extends React.Component<IProps, IState> {
             return <Spinner />;
         }
 
-        let displayedLanguages: Awaited<ReturnType<typeof languageHandler.getAllLanguagesWithLabels>>;
+        let displayedLanguages: Languages;
         if (this.state.searchQuery) {
-            displayedLanguages = this.state.langs.filter((lang) => {
-                return languageMatchesSearchQuery(this.state.searchQuery, lang);
-            });
+            displayedLanguages = this.state.langs.filter((lang) =>
+                languageMatchesSearchQuery(this.state.searchQuery, lang),
+            );
         } else {
             displayedLanguages = this.state.langs;
         }
 
-        const options = displayedLanguages.map((language) => {
-            return <div key={language.value}>{language.labelInTargetLanguage}</div>;
-        }) as NonEmptyArray<ReactElement & { key: string }>;
+        const options = displayedLanguages.map((language) => (
+            <div key={language.value}>{language.labelInTargetLanguage}</div>
+        )) as NonEmptyArray<ReactElement & { key: string }>;
 
         return (
             <Dropdown

@@ -52,7 +52,7 @@ exports[`<SecurityUserSettingsTab /> renders security section 1`] = `
             <h4
               class="mx_Heading_h4"
             >
-              (scalar.vector.im)
+    
             </h4>
           </div>
         </div>
@@ -61,9 +61,7 @@ exports[`<SecurityUserSettingsTab /> renders security section 1`] = `
         >
           <span>
             Use an integration manager 
-            <strong>
-              (scalar.vector.im)
-            </strong>
+            
              to manage bots, widgets, and sticker packs.
           </span>
         </div>

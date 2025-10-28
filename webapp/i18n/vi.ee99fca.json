@@ -2214,7 +2214,7 @@
             "message_search_sleep_time": "Tin nhắn sẽ được tải xuống nhanh như thế nào.",
             "message_search_space_used": "Space đã sử dụng:",
             "message_search_unsupported": "%(brand)s thiếu một số thành phần thiết yếu để lưu trữ cục bộ an toàn các tin nhắn được mã hóa. Nếu bạn muốn thử nghiệm với tính năng này, hãy dựng một bản %(brand)s tùy chỉnh cho máy tính có thêm <nativeLink>các thành phần để tìm kiếm</nativeLink>.",
-            "message_search_unsupported_web": "%(brand)s không thể lưu trữ cục bộ an toàn các tin nhắn được mã hóa khi đang chạy trong trình duyệt web. Sử dụng %(brand)s cho máy tính để các tin nhắn được mã hóa xuất hiện trong kết quả tìm kiếm.",
+            "message_search_unsupported_web": "%(brand)s không thể lưu trữ cục bộ an toàn các tin nhắn được mã hóa khi đang chạy trong trình duyệt web. Sử dụng <desktopLink>%(brand)s cho máy tính</desktopLink> để các tin nhắn được mã hóa xuất hiện trong kết quả tìm kiếm.",
             "record_session_details": "Ghi lại tên phần mềm máy khách, phiên bản, và đường dẫn để nhận diện các phiên dễ dàng hơn trong trình quản lý phiên",
             "send_analytics": "Gửi dữ liệu phân tích",
             "strict_encryption": "Không bao giờ gửi tin nhắn được mã hóa đến các phiên chưa được xác thực từ phiên này"

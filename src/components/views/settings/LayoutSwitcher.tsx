@@ -37,6 +37,7 @@ function LayoutSelector(): JSX.Element {
     return (
         <Root
             className="mx_LayoutSwitcher_LayoutSelector"
+            defaultValue={Layout.Bubble}
             onChange={async (evt) => {
                 // We don't have any file in the form, we can cast it as string safely
                 const newLayout = new FormData(evt.currentTarget).get("layout") as string | null;

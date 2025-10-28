@@ -108,91 +108,92 @@ export default class HelpUserSettingsTab extends React.Component<EmptyObject, IS
         // Note: This is not translated because it is legal text.
         // Also, &nbsp; is ugly but necessary.
         return (
-            <SettingsSubsection heading={_t("common|credits")}>
-                <SettingsSubsectionText>
-                    <ul>
-                        <li>
-                            {_t(
-                                "credits|default_cover_photo",
-                                {},
-                                {
-                                    photo: (sub) => (
-                                        <ExternalLink
-                                            href="themes/element/img/backgrounds/lake1.jpg"
-                                            rel="noreferrer noopener"
-                                            target="_blank"
-                                        >
-                                            {sub}
-                                        </ExternalLink>
-                                    ),
-                                    author: (sub) => (
-                                        <ExternalLink href="https://www.flickr.com/golan">{sub}</ExternalLink>
-                                    ),
-                                    terms: (sub) => (
-                                        <ExternalLink
-                                            href="https://creativecommons.org/licenses/by-sa/4.0/"
-                                            rel="noreferrer noopener"
-                                            target="_blank"
-                                        >
-                                            {sub}
-                                        </ExternalLink>
-                                    ),
-                                },
-                            )}
-                        </li>
-                        <li>
-                            {_t(
-                                "credits|twemoji_colr",
-                                {},
-                                {
-                                    colr: (sub) => (
-                                        <ExternalLink
-                                            href="https://github.com/matrix-org/twemoji-colr"
-                                            rel="noreferrer noopener"
-                                            target="_blank"
-                                        >
-                                            {sub}
-                                        </ExternalLink>
-                                    ),
-                                    author: (sub) => <ExternalLink href="https://mozilla.org">{sub}</ExternalLink>,
-                                    terms: (sub) => (
-                                        <ExternalLink
-                                            href="https://www.apache.org/licenses/LICENSE-2.0"
-                                            rel="noreferrer noopener"
-                                            target="_blank"
-                                        >
-                                            {sub}
-                                        </ExternalLink>
-                                    ),
-                                },
-                            )}
-                        </li>
-                        <li>
-                            {_t(
-                                "credits|twemoji",
-                                {},
-                                {
-                                    twemoji: (sub) => (
-                                        <ExternalLink href="https://twemoji.twitter.com/">{sub}</ExternalLink>
-                                    ),
-                                    author: (sub) => (
-                                        <ExternalLink href="https://twemoji.twitter.com/">{sub}</ExternalLink>
-                                    ),
-                                    terms: (sub) => (
-                                        <ExternalLink
-                                            href="https://creativecommons.org/licenses/by/4.0/"
-                                            rel="noreferrer noopener"
-                                            target="_blank"
-                                        >
-                                            {sub}
-                                        </ExternalLink>
-                                    ),
-                                },
-                            )}
-                        </li>
-                    </ul>
-                </SettingsSubsectionText>
-            </SettingsSubsection>
+            // <SettingsSubsection heading={_t("common|credits")}>
+            //     <SettingsSubsectionText>
+            //         <ul>
+            //             <li>
+            //                 {_t(
+            //                     "credits|default_cover_photo",
+            //                     {},
+            //                     {
+            //                         photo: (sub) => (
+            //                             <ExternalLink
+            //                                 href="themes/element/img/backgrounds/lake1.jpg"
+            //                                 rel="noreferrer noopener"
+            //                                 target="_blank"
+            //                             >
+            //                                 {sub}
+            //                             </ExternalLink>
+            //                         ),
+            //                         author: (sub) => (
+            //                             <ExternalLink href="https://www.flickr.com/golan">{sub}</ExternalLink>
+            //                         ),
+            //                         terms: (sub) => (
+            //                             <ExternalLink
+            //                                 href="https://creativecommons.org/licenses/by-sa/4.0/"
+            //                                 rel="noreferrer noopener"
+            //                                 target="_blank"
+            //                             >
+            //                                 {sub}
+            //                             </ExternalLink>
+            //                         ),
+            //                     },
+            //                 )}
+            //             </li>
+            //             <li>
+            //                 {_t(
+            //                     "credits|twemoji_colr",
+            //                     {},
+            //                     {
+            //                         colr: (sub) => (
+            //                             <ExternalLink
+            //                                 href="https://github.com/matrix-org/twemoji-colr"
+            //                                 rel="noreferrer noopener"
+            //                                 target="_blank"
+            //                             >
+            //                                 {sub}
+            //                             </ExternalLink>
+            //                         ),
+            //                         author: (sub) => <ExternalLink href="https://mozilla.org">{sub}</ExternalLink>,
+            //                         terms: (sub) => (
+            //                             <ExternalLink
+            //                                 href="https://www.apache.org/licenses/LICENSE-2.0"
+            //                                 rel="noreferrer noopener"
+            //                                 target="_blank"
+            //                             >
+            //                                 {sub}
+            //                             </ExternalLink>
+            //                         ),
+            //                     },
+            //                 )}
+            //             </li>
+            //             <li>
+            //                 {_t(
+            //                     "credits|twemoji",
+            //                     {},
+            //                     {
+            //                         twemoji: (sub) => (
+            //                             <ExternalLink href="https://twemoji.twitter.com/">{sub}</ExternalLink>
+            //                         ),
+            //                         author: (sub) => (
+            //                             <ExternalLink href="https://twemoji.twitter.com/">{sub}</ExternalLink>
+            //                         ),
+            //                         terms: (sub) => (
+            //                             <ExternalLink
+            //                                 href="https://creativecommons.org/licenses/by/4.0/"
+            //                                 rel="noreferrer noopener"
+            //                                 target="_blank"
+            //                             >
+            //                                 {sub}
+            //                             </ExternalLink>
+            //                         ),
+            //                     },
+            //                 )}
+            //             </li>
+            //         </ul>
+            //     </SettingsSubsectionText>
+            // </SettingsSubsection>
+            <></>
         );
     }
 
@@ -256,8 +257,8 @@ export default class HelpUserSettingsTab extends React.Component<EmptyObject, IS
         return (
             <SettingsTab>
                 <SettingsSection>
-                    {bugReportingSection}
-                    <SettingsSubsection heading={_t("common|faq")} description={faqText} />
+                    {/* {bugReportingSection}
+                    <SettingsSubsection heading={_t("common|faq")} description={faqText} /> */}
                     <SettingsSubsection heading={_t("setting|help_about|versions")}>
                         <SettingsSubsectionText>
                             <CopyableText getTextToCopy={this.getVersionTextToCopy}>

@@ -46,7 +46,7 @@ const AccountSection: React.FC<AccountSectionProps> = ({
 
     return (
         <>
-            <SettingsSubsection
+            {/* <SettingsSubsection
                 heading={_t("settings|general|account_section")}
                 stretchContent
                 data-testid="accountSection"
@@ -58,7 +58,7 @@ const AccountSection: React.FC<AccountSectionProps> = ({
                     onError={onPasswordChangeError}
                     onFinished={onPasswordChanged}
                 />
-            </SettingsSubsection>
+            </SettingsSubsection> */}
         </>
     );
 };

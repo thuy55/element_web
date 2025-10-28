@@ -82,7 +82,7 @@ export const UserPersonalInfoSettings: React.FC<UserPersonalInfoSettingsProps> =
 
     return (
         <div>
-            <h2>{_t("settings|general|personal_info")}</h2>
+            {/* <h2>{_t("settings|general|personal_info")}</h2>
             <SettingsSubsection
                 heading={_t("settings|general|emails_heading")}
                 stretchContent
@@ -121,7 +121,7 @@ export const UserPersonalInfoSettings: React.FC<UserPersonalInfoSettingsProps> =
                         isLoading={loadingState === "loading"}
                     />
                 </ThreepidSectionWrapper>
-            </SettingsSubsection>
+            </SettingsSubsection> */}
         </div>
     );
 };
