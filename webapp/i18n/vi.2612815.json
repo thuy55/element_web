@@ -653,7 +653,7 @@
         "poll_button_no_perms_description": "Bạn không có quyền để bắt đầu các cuộc thăm dò trong phòng này.",
         "poll_button_no_perms_title": "Yêu cầu Cấp quyền",
         "replying_title": "Đang trả lời",
-        "room_unencrypted": "Các tin nhắn trong phòng này không được mã hóa đầu cuối",
+        "room_unencrypted": "Messages in this room are not end-to-end encrypted",
         "room_upgraded_link": "Cuộc trò chuyện tiếp tục tại đây.",
         "room_upgraded_notice": "Phòng này đã được thay thế và không còn hoạt động nữa.",
         "send_button_title": "Gửi tin nhắn",
@@ -701,7 +701,7 @@
         "address_label": "Địa chỉ",
         "address_placeholder": "ví dụ như my-space",
         "creating": "Đang tạo…",
-        "creating_rooms": "Đang tạo các phòng…",
+        "creating_rooms": "Creating rooms…",
         "done_action": "Đi đến space của tôi",
         "done_action_first_room": "Đến phòng đầu tiên của tôi",
         "explainer": "Space là một cách mới để nhóm các phòng và mọi người. Loại space nào bạn muốn tạo? Bạn có thể thay đổi sau.",
@@ -710,7 +710,7 @@
         "invite_teammates_by_username": "Mời theo tên người dùng",
         "invite_teammates_description": "Đảm bảo đúng người có quyền truy cập. Bạn có thể mời thêm sau.",
         "invite_teammates_heading": "Mời đồng đội của bạn",
-        "inviting_users": "Đang mời…",
+        "inviting_users": "Inviting…",
         "label": "Tạo một Space",
         "name_required": "Vui lòng nhập tên cho Space",
         "personal_space": "Chỉ tôi",
@@ -825,7 +825,7 @@
         "low_bandwidth_mode": "Chế độ băng thông thấp",
         "low_bandwidth_mode_description": "Cần máy chủ nhà tương thích.",
         "main_timeline": "Dòng thời gian chính",
-        "manual_device_verification": "Xác minh thiết bị thủ công",
+        "manual_device_verification": "Manual device verification",
         "no_receipt_found": "Không tìm thấy biên lai",
         "notification_state": "Trạng thái thông báo là <strong> %(notificationState)s </strong>",
         "notifications_debug": "Gỡ lỗi thông báo",
@@ -863,7 +863,7 @@
             "elementCallUrl": "Element Call URL"
         },
         "settings_explorer": "Xem cài đặt",
-        "show_empty_content_events": "Hiển thị các sự kiện có nội dung trống",
+        "show_empty_content_events": "Show events with empty content",
         "show_hidden_events": "Hiện các sự kiện ẩn trong dòng thời gian",
         "spaces": {
             "one": "<space>",
@@ -974,7 +974,7 @@
         "setup_secure_backup": {
             "explainer": "Sao lưu chìa khóa của bạn trước khi đăng xuất để tránh mất chúng."
         },
-        "turn_on_key_storage": "Bật lưu trữ khóa",
+        "turn_on_key_storage": "Turn on key storage",
         "turn_on_key_storage_description": "Store your cryptographic identity and message keys securely on the server. This will allow you to view your message history on any new devices.",
         "udd": {
             "interactive_verification_button": "Xác thực có tương tác bằng biểu tượng cảm xúc",

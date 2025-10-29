@@ -863,7 +863,7 @@
             "elementCallUrl": "Element Call URL"
         },
         "settings_explorer": "Xem cài đặt",
-        "show_empty_content_events": "Hiển thị các sự kiện có nội dung trống",
+        "show_empty_content_events": "Show events with empty content",
         "show_hidden_events": "Hiện các sự kiện ẩn trong dòng thời gian",
         "spaces": {
             "one": "<space>",
@@ -974,7 +974,7 @@
         "setup_secure_backup": {
             "explainer": "Sao lưu chìa khóa của bạn trước khi đăng xuất để tránh mất chúng."
         },
-        "turn_on_key_storage": "Bật lưu trữ khóa",
+        "turn_on_key_storage": "Turn on key storage",
         "turn_on_key_storage_description": "Store your cryptographic identity and message keys securely on the server. This will allow you to view your message history on any new devices.",
         "udd": {
             "interactive_verification_button": "Xác thực có tương tác bằng biểu tượng cảm xúc",
