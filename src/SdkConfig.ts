@@ -27,7 +27,7 @@ export const DEFAULTS: DeepReadonly<IConfigOptions> = {
     force_verification: false,
 
     jitsi: {
-        preferred_domain: "meet.element.io",
+        preferred_domain: "jitsi.5hpc.com",
     },
     element_call: {
         use_exclusively: false,

@@ -39,7 +39,7 @@
         "breadcrumbs": true
     },
     "jitsi": {
-        "preferred_domain": "meet.element.io"
+        "preferred_domain": "jitsi.5hpc.com"
     },
     "element_call": {
         "url": "https://call.element.io",
