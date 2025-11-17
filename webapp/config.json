@@ -1,0 +1,12 @@
+{
+  "default_server_config": {
+    "m.homeserver": {
+      "base_url": "https://matrix-client.matrix.org",
+      "server_name": "matrix.5hpc.com"
+    }
+  },
+  "brand": "5HPC Web",
+  "disable_custom_urls": false,
+  "disable_guests": true,
+  "default_country_code": "VN"
+}
